@@ -1,0 +1,31 @@
+{
+    "name": "Robot 1",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-kitronik-servo-lite": "github:kitronikltd/pxt-kitronik-servo-lite#v1.0.9",
+        "pxt-kitronik-robotics-board": "github:kitronikltd/pxt-kitronik-robotics-board#v0.1.1",
+        "Rover": "github:freenove/makecode-extension-rover#v1.0.8",
+        "motobit": "github:sparkfun/pxt-moto-bit#v0.0.4",
+        "microbit-robot": "github:microsoft/microbit-robot#v2.7.4",
+        "k8": "github:k8robotics/pxt-k8#v1.1.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.0.16",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
